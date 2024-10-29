@@ -15,8 +15,6 @@ public class TsvFileTitleReader implements TitleReader{
     public List<Title> load() {
         try {
             return load(new FileReader(file));
-        } catch (FileNotFoundException e) {
-            throw new RuntimeException(e);
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
