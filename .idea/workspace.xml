@@ -4,20 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d2dfaaa2-d012-41e3-89ee-f5f74538e562" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kata2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/software/ulpgc/kata2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/software/ulpgc/kata2/Title.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/software/ulpgc/kata2/TitleDeserializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/software/ulpgc/kata2/TitleReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/software/ulpgc/kata2/TsvFileTitleReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/software/ulpgc/kata2/TsvTitleDeserializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/title.basics.tsv" afterDir="false" />
+    <list default="true" id="d2dfaaa2-d012-41e3-89ee-f5f74538e562" name="Changes" comment="kata2">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/software/ulpgc/kata2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/software/ulpgc/kata2/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/software/ulpgc/kata2/TsvFileTitleReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/software/ulpgc/kata2/TsvFileTitleReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/software/ulpgc/kata2/TsvTitleDeserializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/software/ulpgc/kata2/TsvTitleDeserializer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +26,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;IsaiCordero&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/IsaiCordero/kata2&quot;,
+    &quot;accountId&quot;: &quot;b6fe5071-e0db-4225-aab9-be47527f6519&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
@@ -44,23 +47,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/isai/IdeaProjects/kata2 - copia",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "C:/Users/isai/IdeaProjects/kata2/src/software/ulpgc/kata2/Main.java",
-    "settings.editor.selected.configurable": "preferences.keymap",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/isai/Downloads/kata3/kata3&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/isai/IdeaProjects/kata2/src/software/ulpgc/kata2/Main.java&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\isai\IdeaProjects\kata2" />
@@ -94,11 +97,27 @@
       <workItem from="1729768584443" duration="4591000" />
       <workItem from="1730129819005" duration="1417000" />
       <workItem from="1730135511753" duration="1549000" />
+      <workItem from="1730140626139" duration="765000" />
+      <workItem from="1730213694163" duration="225000" />
+      <workItem from="1730218249543" duration="416000" />
     </task>
+    <task id="LOCAL-00001" summary="kata2">
+      <option name="closed" value="true" />
+      <created>1730140677475</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1730140677475</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="kata2" />
+    <option name="LAST_COMMIT_MESSAGE" value="kata2" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/kata2$Main.ic" NAME="Main Coverage Results" MODIFIED="1728044744951" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
