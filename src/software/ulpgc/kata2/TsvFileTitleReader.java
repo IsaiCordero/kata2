@@ -4,11 +4,13 @@ import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
 
-public class TsvFileTitleReader implements TitleReader{
+public class TsvFileTitleReader implements TitleReader {
     private final File file;
+    private final TitleDeserializer deserializer;
 
-    public TsvFileTitleReader(File file) {
+    public TsvFileTitleReader(File file, TitleDeserializer deserializer) {
         this.file = file;
+        this.deserializer = deserializer;
     }
 
     @Override
@@ -27,29 +29,10 @@ public class TsvFileTitleReader implements TitleReader{
     private List<Title> load(BufferedReader reader) throws IOException {
         reader.readLine();
         List<Title> titles = new ArrayList<>();
-        while (true) {
-            String line = reader.readLine();
-            if (line == null) return titles;
-            titles.add(toTitle(line));
+        String line;
+        while ((line = reader.readLine()) != null) {
+            titles.add(deserializer.deserialize(line));
         }
+        return titles;
     }
-
-    private Title toTitle(String line) {
-        return toTile(line.split("\t"));
-    }
-
-    private Title toTile(String[] fields) {
-        return new Title(
-                fields[0],
-                fields[1],
-                fields[2],
-                fields[3],
-                fields[4],
-                fields[5],
-                fields[6],
-                fields[7],
-                fields[8]
-        );
-    }
-
 }
